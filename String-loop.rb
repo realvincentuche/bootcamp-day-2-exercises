@@ -5,5 +5,5 @@ words = text.split("")
 
 words.each {
     |e|
-    puts e
+    puts "#{e.upcase}"
 }
